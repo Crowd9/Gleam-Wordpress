@@ -16,6 +16,6 @@ add_shortcode('gleam_widget', function($atts, $content = null) {
     if (empty($args['url'])) {
         return;
     }
-    return sprintf('<a class="e-gleam" href="%s" rel="nofollow">%s</a><script src="//js.gleam.io.e.js" async="true"></script>',
+    return sprintf('<a class="e-gleam" href="%s" rel="nofollow">%s</a><script src="//js.gleam.io/e.js" async="true"></script>',
             htmlspecialchars($args['url']), do_shortcode($content));
 });

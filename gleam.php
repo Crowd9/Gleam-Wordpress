@@ -8,7 +8,7 @@
  * Author URI: https://github.com/Crowd9/Gleam-Wordpress
  */
 
-add_shortcode('gleam_widget', function($atts, $content = null) {
+add_shortcode('gleam', function($atts, $content = null) {
     $args = shortcode_atts(array(
         'url' => null
     ), $atts);

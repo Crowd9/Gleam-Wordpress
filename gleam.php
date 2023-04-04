@@ -10,8 +10,7 @@
 
 
 function gleam_init() {
-    $file = file_get_contents('https://js.gleam.io/e.js');
-    echo "<script>$file</script>";
+    echo '<script src="//js.gleam.io/e.js" async="true"></script>';
 }
 
 function gleam_shortcode($atts, $content = null) {

@@ -3,7 +3,7 @@
  * Plugin Name: Gleam
  * Plugin URI: https://gleam.io/docs/faq#wordpress
  * Description: Gleam competition plugin. Requires PHP 5.3
- * Version: 1.0
+ * Version: 2.0
  * Author: Crowd9
  * Author URI: https://github.com/Crowd9/Gleam-Wordpress
  */
